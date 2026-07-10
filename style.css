@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.common__btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #5abae7;
+  color: #1f2937;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+/* common properties */
+/* navbar starts here  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.logo img {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+.main__menu ul {
+  display: flex;
+  gap: 30px;
+  color: #6b7280;
+}
+.main__menu ul li {
+  list-style: none;
+  cursor: pointer;
+}
+/* navbar ends here  */
+
+/* hero section starts here  */
+
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)),
+    url("./images/banner.jpg") no-repeat center/cover;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.hero__content {
+  width: 100%;
+  max-width: 750px;
+  min-height: 55vh;
+  padding: 10px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -0.03rem;
+  margin-bottom: 24px;
+}
+.title em {
+  font-style: italic;
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  max-width: 620px;
+  margin-inline: auto;
+}
+
+/* hero section ends here  */
