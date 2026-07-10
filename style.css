@@ -16,13 +16,17 @@ body {
 .common__btn {
   display: inline-block;
   padding: 12px 28px;
-  background: #5abae7;
-  color: #1f2937;
+  background: #3b82f6;
+  color: white;
   font-weight: 700;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   text-align: center;
+}
+img {
+  display: block;
+  max-width: 100%;
 }
 /* common properties */
 /* navbar starts here  */
@@ -35,7 +39,6 @@ body {
 .logo img {
   width: 120px;
   height: auto;
-  display: block;
 }
 
 .main__menu ul {
@@ -84,10 +87,7 @@ body {
   letter-spacing: -0.03rem;
   margin-bottom: 24px;
 }
-.title em {
-  font-style: italic;
-  font-weight: 700;
-}
+
 .subtitle {
   font-size: 1.15rem;
   line-height: 1.6;
@@ -99,53 +99,178 @@ body {
 /* hero section ends here  */
 
 /* speaker section starts here  */
-.speaker__section{
- padding: 80px 0;
+.speaker__section {
+  padding: 80px 0;
 }
-.section__title{
+.section__title {
   text-align: center;
   margin-bottom: 48px;
 }
-.speakers__cards{
+.speakers__cards {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-
 }
-.speaker__card{
+.speaker__card {
   border: 1px solid #e0e0e0;
   border-radius: 12px;
   overflow: hidden;
   background: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
-.card__content{
+.card__content {
   padding: 20px;
 }
-.speaker__category{
+.speaker__category {
   font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: bold;
   display: block;
   margin-bottom: 8px;
-  color: #5abae7;
+  color: #3b82f6;
 }
-.card__content h3{
- margin-bottom: 6px;
- font-size: 1.25rem;
- color: #111827;
+.card__content h3 {
+  margin-bottom: 6px;
+  font-size: 1.25rem;
+  color: #111827;
 }
-.card__content p{
-  margin: 0;
+.card__content p {
   font-size: 0.9rem;
   color: #6b7280;
 }
-.speaker__card img{
-  display: block;
+.speaker__card img {
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
 
-
 /* speaker section ends here  */
+
+/* pricing section starts here  */
+.pricing {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.pricing__title {
+  color: #202123;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.pricing__subtitle {
+  color: #6b7280;
+  margin-bottom: 30px;
+}
+
+.pricing__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 32px 28px;
+  text-align: left;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 4px 4px 0 1px rgba(0, 0, 0);
+}
+
+.card__featured {
+  border: 1px solid #3b82f6;
+  background: #eff6ff;
+  transform: translateY(-5px);
+}
+.card__featured:hover {
+  transform: translateY(-10px);
+  box-shadow: 4px 4px 0 1px rgba(0, 0, 0);
+}
+
+.card__badge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 6px 12px;
+  background: #3b82f6;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: #3a404b8f;
+}
+
+.card__price {
+  color: #202123;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.card__price-unit {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.card__features {
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+.card__feature {
+  margin: 10px 0;
+  color: #4b5563;
+}
+
+.card__feature::marker {
+  color: #3b82f6;
+  font-size: 1.2em;
+}
+
+.card__button {
+  width: 100%;
+  margin-top: 28px;
+  padding: 14px;
+  border: none;
+  border-radius: 999px;
+  background: #202123;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card__button:hover {
+  background: #2563eb;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+}
+
+.card__featured .card__button {
+  background: #3b82f6;
+}
+
+/* pricing section ends here  */
