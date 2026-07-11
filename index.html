@@ -26,6 +26,7 @@
             <li>Schedule</li>
             <li>Tracks</li>
             <li>Venue</li>
+            <li>Blog</li>
           </ul>
         </div>
         <!-- button  -->
@@ -56,7 +57,6 @@
       <section class="speaker__section container">
         <h2 class="section__title">Meet the Speakers</h2>
         <div class="speakers__cards">
-          <!-- card 1  -->
           <div class="speaker__card">
             <img src="./images/andrej.png" alt="Andrej Karpathy" />
             <div class="card__content">
@@ -65,7 +65,7 @@
               <p>Pretraining team, Anthropic</p>
             </div>
           </div>
-          <!-- card 2  -->
+
           <div class="speaker__card">
             <img src="./images/demis.png" alt="Demis Hassabis" />
             <div class="card__content">
@@ -74,7 +74,7 @@
               <p>Co-Founder and CEO, Google DeepMind</p>
             </div>
           </div>
-          <!-- card 3  -->
+
           <div class="speaker__card">
             <img src="./images/gary.png" alt="Gary Marcus" />
             <div class="card__content">
@@ -83,7 +83,7 @@
               <p>Staff Engineer, Vercel</p>
             </div>
           </div>
-          <!-- card 4  -->
+
           <div class="speaker__card">
             <img src="./images/mustafa.png" alt="Mustafa Suleyman" />
             <div class="card__content">
@@ -163,34 +163,92 @@
       </section>
 
       <!-- pricing section ends here  -->
+
+      <!-- hackathon section starts here -->
+      <section class="hackathon container">
+        <h2 class="section__title">48-Hour Hackathon</h2>
+        <p class="hackathon__subtitle">
+          Build something real, ship it in a weekend, and pitch it to the judges
+          before the closing ceremony.
+        </p>
+
+        <div class="hackathon__grid">
+          <div class="hackathon__card">
+            <div class="hackathon__icon">
+              <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <h3 class="hackathon__title">Dates</h3>
+            <p class="hackathon__desc">
+              Kicks off Day 2 evening and runs through Day 3 afternoon, right
+              before the closing ceremony.
+            </p>
+          </div>
+
+          <div class="hackathon__card">
+            <div class="hackathon__icon">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <h3 class="hackathon__title">Prize Pool</h3>
+            <p class="hackathon__desc">
+              $10,000 across three categories, plus mentorship slots with our
+              keynote speakers for every finalist team.
+            </p>
+          </div>
+
+          <div class="hackathon__card">
+            <div class="hackathon__icon">
+              <i class="fa-solid fa-user-group"></i>
+            </div>
+            <h3 class="hackathon__title">Team Size</h3>
+            <p class="hackathon__desc">
+              Teams of 1 to 4. No team yet? Join the team-matching board at
+              registration and we will help you find one.
+            </p>
+          </div>
+
+          <div class="hackathon__card">
+            <div class="hackathon__icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h3 class="hackathon__title">Format</h3>
+            <p class="hackathon__desc">
+              Open theme, any stack. Bring an idea or find one at the kickoff
+              brainstorm session.
+            </p>
+          </div>
+        </div>
+
+        <button class="common__btn">Register for Hackathon</button>
+      </section>
+      <!-- hackathon section ends here -->
     </main>
 
-    <!-- footer starts here  -->
+    <!-- footer starts here -->
     <footer class="site__footer">
-      <div class="footer__top">
-        <div class="footer__brand">
-          <div class="footer__logo">
-            <a href="#">
-              <img src="./images/logo-mini.png" alt="DevConf Mini Logo" />
-            </a>
-          </div>
-          <p class="copyright">&copy; 2026 DevConf. All rights reserved.</p>
+      <div class="footer__top container">
+        <div class="footer__logo">
+          <a href="#">
+            <img src="./images/logo-mini.png" alt="DevConf Mini Logo" />
+          </a>
         </div>
 
-        <!--Social links -->
         <div class="footer__socials">
-          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        </div>
-
-        <div class="footer__links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
         </div>
       </div>
-    </footer>
 
-    <!-- footer ends here  -->
+      <hr class="footer__divider" />
+
+      <p class="copyright">&copy; 2026 DevConf. All rights reserved.</p>
+    </footer>
+    <!-- footer ends here -->
   </body>
 </html>
