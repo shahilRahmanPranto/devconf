@@ -6,5 +6,5 @@ Act as an beginner frontend developer.I just learned basic css .I need to replac
 - For buttons use the "common\_\_btn" class and leave it as it is.
 - make sure the card section follows this same border when hover( transform: translateY(-4px);
   box-shadow: 4px 4px 0 1px rgba(0, 0, 0); )
-- Provide semantic HTML using clean BEM architecture like( "hackathon\_\_card")
+- Provide semantic HTML using clean BEM architecture like( "hackathon__card")
 - Provide CSS that uses Flexbox or CSS Grid (do not use advance grid or css just basic) to make it completely responsive.
