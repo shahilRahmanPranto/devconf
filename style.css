@@ -71,7 +71,7 @@ img {
 .hero__content {
   width: 100%;
   max-width: 750px;
-  min-height: 55vh;
+  min-height: 90vh;
   padding: 10px;
   color: #ffffff;
   display: flex;
