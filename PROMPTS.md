@@ -3,7 +3,7 @@ Act as an beginner frontend developer.I just learned basic css .I need to replac
 - Clean, minimalist tech conference aesthetic.
 - make sure the hackathonsection use a "container" in class so i so it doesnt overflow i have a "container" class that goes every section
 - Primary colors: Bright Blue (`#2563eb`), Crisp White (`#ffffff`), and Muted Gray text (`#4b5563`).
-- For buttons use the "common\_\_btn" class and leave it as it is.
+- For buttons use the "common__btn" class and leave it as it is.
 - make sure the card section follows this same border when hover( transform: translateY(-4px);
   box-shadow: 4px 4px 0 1px rgba(0, 0, 0); )
 - Provide semantic HTML using clean BEM architecture like( "hackathon__card")
