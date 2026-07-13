@@ -382,9 +382,29 @@ img {
   margin: 16px auto;
   max-width: 1200px;
 }
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.footer__bottom-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+.footer__bottom-link {
+  color: #4b5563;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.footer__bottom-link:hover {
+  color: #ffffff;
+}
 
 .copyright {
-  text-align: center;
   color: #4b5563;
   font-size: 0.8rem;
 }
